@@ -5,13 +5,13 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title></title>
+        <title>ReCourse Golf</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          <img className={styles.titleLogo} src='https://storage.googleapis.com/recourse-assets/logos/recourse-logo-slogan-white.png' alt='logo-with-slogan' />
         </h1>
 
         <p className={styles.description}>
@@ -50,14 +50,7 @@ export default function Home() {
       </main>
 
       <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel" className={styles.logo} />
-        </a>
+        ReCourse Golf
       </footer>
 
       <style jsx>{`

@@ -5,6 +5,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #0D3512;
+  color: whitesmoke;
 }
 
 .title a {
@@ -23,6 +25,12 @@
   line-height: 1.15;
   font-size: 3.6rem;
 }
+
+.titleLogo {
+  width: 40%;
+  height: auto;
+}
+
 
 .title {
   text-align: center;
