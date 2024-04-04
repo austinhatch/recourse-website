@@ -11,6 +11,7 @@
 .titleLogo {
   width: 60%;
   height: auto;
+  opacity: 100;
 }
 
 
@@ -20,6 +21,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: rgb(64, 61, 91, 0.8);
 }
 
 

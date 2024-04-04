@@ -1,11 +1,11 @@
 .container {
   min-height: 100vh;
-  padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: whitesmoke;
+  color: #F3EFF5;
+  padding-top: 100px;
 }
 
 .title a {
