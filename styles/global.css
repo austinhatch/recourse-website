@@ -5,7 +5,16 @@ body {
   padding: 0;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background: radial-gradient(circle, rgba(146, 164, 148, 1) 0%, rgba(13, 53, 18, 1) 100%);
+  /* background: radial-gradient(circle, rgba(146, 164, 148, 1) 0%, rgba(13, 53, 18, 1) 100%); */
+  background-image: url('https://storage.googleapis.com/recourse-assets/assets/recourse-banner.png');
+  /* Path to your image */
+  background-size: cover;
+  /* Cover the entire viewport */
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+
 }
 
 a:link {

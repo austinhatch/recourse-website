@@ -1,18 +1,11 @@
-.mainContainer {
-  width: 100%;
-  height: 100%;
-}
-
 .container {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: radial-gradient(circle, rgba(146, 164, 148, 1) 0%, rgba(13, 53, 18, 1) 100%);
   color: #F3EFF5;
-  width: 100%;
-  padding-top: 20%;
+  padding-top: 100px;
 }
 
 .titleLogo {
@@ -22,6 +15,7 @@
 
 
 .title {
+  padding-top: 20px;
   text-align: center;
   display: flex;
   align-items: center;
@@ -50,6 +44,7 @@
   padding: 1.5rem;
   text-align: left;
   color: inherit;
+  background-color: #3D405B;
   text-decoration: none;
   border: 1px solid #eaeaea;
   border-radius: 10px;
