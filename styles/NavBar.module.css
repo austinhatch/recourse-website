@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #0D3512;
+    color: whitesmoke;
+    position: fixed;
+    width: 100%;
+    height: 10%;
+}
+
+.logo {
+    height: 5em;
+}
+
+.launchButton {
+    height: 66%;
+    border-radius: 10%;
+    font-size: medium;
+    font-family: inherit;
+    color: #F3EFF5;
+    background: radial-gradient(circle, rgba(113, 161, 95, 1) 0%, rgba(59, 125, 35, 1) 100%);
+    border-color: #F3EFF5;
+}

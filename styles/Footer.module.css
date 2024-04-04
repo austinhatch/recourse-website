@@ -1,0 +1,15 @@
+.container {
+    height: 200%;
+    padding: 0 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0D3512;
+    color: whitesmoke;
+
+}
+
+.logo {
+    height: 2rem;
+}
